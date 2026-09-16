@@ -1,6 +1,6 @@
-## A class that contains functions to slice meshes in half.
+@tool
 class_name MeshSlicer
-extends Node
+extends EditorPlugin
 
 static var _root:Window = Engine.get_main_loop().root
 
